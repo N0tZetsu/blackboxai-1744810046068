@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>ESX HUD</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Money, Bank & ID Container -->
+    <div class="top-container">
+        <div class="stat-box">
+            <img src="img/Dinero.png" alt="Money">
+            <span id="money">$9,190</span>
+        </div>
+        <div class="stat-box">
+            <img src="img/Banco.png" alt="Bank">
+            <span id="bank">$50,800</span>
+        </div>
+        <div class="stat-box">
+            <img src="img/ID.png" alt="ID">
+            <span id="id">1</span>
+        </div>
+    </div>
+
+    <!-- Hunger & Thirst Container -->
+    <div class="side-container">
+        <div class="status-bar">
+            <div class="status-icon-container">
+                <img src="img/hambre.png" alt="Hunger" class="status-icon">
+                <div class="status-overlay" id="hunger-overlay" style="height: 30%"></div>
+            </div>
+        </div>
+        <div class="status-bar">
+            <div class="status-icon-container">
+                <img src="img/sed.png" alt="Thirst" class="status-icon">
+                <div class="status-overlay" id="thirst-overlay" style="height: 40%"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
