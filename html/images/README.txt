@@ -1,11 +1,17 @@
-Place the following icons in this directory:
+Required icons for TumberosHUD:
 
-1. money.png - Money icon (renamed from Dinero.png)
-2. bank.png - Bank icon (renamed from Banco.png)
-3. id.png - ID icon
-4. hunger.png - Hunger icon (renamed from hambre.png, orange color)
-5. thirst.png - Thirst icon (renamed from sed.png, blue color)
+Please place the following icons in this directory:
+1. money.png - Green money icon (from provided images)
+2. bank.png - Green bank building icon (from provided images)
+3. id.png - Yellow ID card icon (from provided images)
+4. hunger.png - Orange fork and knife icon (from provided images)
+5. thirst.png - Blue water drop icon (from provided images)
 
-These icons should be appropriately sized:
-- money.png, bank.png, id.png: 20x20px
-- hunger.png, thirst.png: 30x40px
+Icon specifications:
+- money.png, bank.png, id.png: 16x16px recommended
+- hunger.png, thirst.png: 24x32px recommended
+
+The icons should be placed directly in this directory (html/images/).
+The HUD will not display correctly without these icons.
+
+Note: The icons have been provided in the feedback. Please copy them to this directory with the exact names listed above.
