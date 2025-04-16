@@ -2,12 +2,13 @@ fx_version 'cerulean'
 game 'gta5'
 
 author 'TumberosHUD'
-description 'ESX Custom HUD with Money, Bank, ID, Hunger and Thirst'
+description 'Custom HUD with Money, Bank, ID, Hunger and Thirst'
 version '1.0.0'
 
 ui_page 'html/index.html'
 
 client_scripts {
+    '@es_extended/locale.lua',
     'client.lua'
 }
 
@@ -19,5 +20,10 @@ files {
 }
 
 dependencies {
-    'es_extended'
+    'es_extended',
+    'esx_status'
+}
+
+shared_scripts {
+    '@es_extended/imports.lua'
 }
